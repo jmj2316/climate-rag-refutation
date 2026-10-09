@@ -1,0 +1,10 @@
+model,arm,fallback_prose,fallback_structured,labeled,multi_verdict,clean
+Mistral,A,1352,0,183,0,1535
+Mistral,B,410,0,1125,0,1535
+Mistral,C,394,897,244,38,638
+Qwen,A,0,0,1535,0,1535
+Qwen,B,0,0,1535,0,1535
+Qwen,C,0,0,1535,32,1535
+Zephyr,A,0,0,1535,0,1535
+Zephyr,B,9,9,1517,2,1526
+Zephyr,C,9,658,868,45,877

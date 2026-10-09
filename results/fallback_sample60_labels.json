@@ -1,0 +1,542 @@
+[
+ {
+  "idx": 0,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1776",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 1,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1933",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 2,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_198",
+  "verdict": "supports",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 3,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1266",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 4,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2387",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 5,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2267",
+  "verdict": "supports",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 6,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1861",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 7,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1458",
+  "verdict": "supports",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 8,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2230",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 9,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1662",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 10,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2721",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 11,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1078",
+  "verdict": "supports",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 12,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2347",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 13,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_688",
+  "verdict": "supports",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 14,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1369",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 15,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_646",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 16,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2945",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 17,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_503",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 18,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2478",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 19,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1013",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 20,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2011",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 21,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2780",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 22,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2337",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 23,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_678",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 24,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1294",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 25,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_534",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 26,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2835",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 27,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_435",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 28,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2726",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 29,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1394",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 30,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2328",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 31,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2766",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 32,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_551",
+  "verdict": "supports",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 33,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1758",
+  "verdict": "refutes",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 34,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2153",
+  "verdict": "refutes",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 35,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1604",
+  "verdict": "refutes",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 36,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_3034",
+  "verdict": "nei",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 37,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1103",
+  "verdict": "refutes",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 38,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2721",
+  "verdict": "refutes",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 39,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2359",
+  "verdict": "supports",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 40,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2202",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 41,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2565",
+  "verdict": "refutes",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 42,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1383",
+  "verdict": "nei",
+  "label": "coherent_prose",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 43,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_349",
+  "verdict": "nei",
+  "label": "subclaim_by_subclaim_assessment",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 44,
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2702",
+  "verdict": "supports",
+  "label": "multi_verdict_line",
+  "invented_subclaim_specifics": null
+ },
+ {
+  "idx": 45,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_86",
+  "verdict": "supports",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 46,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_446",
+  "verdict": "supports",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 47,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1871",
+  "verdict": "refutes",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 48,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2986",
+  "verdict": "supports",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 49,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_10",
+  "verdict": "nei",
+  "label": "short_assessment_after_dump",
+  "invented_subclaim_specifics": false
+ },
+ {
+  "idx": 50,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2896",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": false
+ },
+ {
+  "idx": 51,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2308",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 52,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1580",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 53,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1154",
+  "verdict": "supports",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 54,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1551",
+  "verdict": "nei",
+  "label": "short_assessment_after_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 55,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_320",
+  "verdict": "refutes",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 56,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_897",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ },
+ {
+  "idx": 57,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2641",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": false
+ },
+ {
+  "idx": 58,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1077",
+  "verdict": "nei",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": false
+ },
+ {
+  "idx": 59,
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1136",
+  "verdict": "supports",
+  "label": "subclaim_and_excerpt_dump",
+  "invented_subclaim_specifics": true
+ }
+]

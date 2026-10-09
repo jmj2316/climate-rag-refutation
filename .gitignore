@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+results/model_a/
+results/model_b/
+results/model_c/
+results/ablation/
+kb/chunks.jsonl
+kb/chunks_meta.json
+kb/faiss.index
+data/ipcc_pdfs/

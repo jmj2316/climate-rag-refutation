@@ -1,0 +1,10 @@
+arm,model,recovered
+A_zeroshot,HuggingFaceH4/zephyr-7b-beta,0
+A_zeroshot,Qwen/Qwen2.5-7B-Instruct,0
+A_zeroshot,mistralai/Mistral-7B-Instruct-v0.3,1352
+B_dense_rag,HuggingFaceH4/zephyr-7b-beta,12
+B_dense_rag,Qwen/Qwen2.5-7B-Instruct,0
+B_dense_rag,mistralai/Mistral-7B-Instruct-v0.3,405
+C_decompose_filtered_rag,HuggingFaceH4/zephyr-7b-beta,667
+C_decompose_filtered_rag,Qwen/Qwen2.5-7B-Instruct,0
+C_decompose_filtered_rag,mistralai/Mistral-7B-Instruct-v0.3,1291

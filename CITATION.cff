@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "Does Retrieval Help Small LLMs Refute Climate Misinformation? A Benchmark of Zero-Shot, Dense RAG, and Decomposed RAG over IPCC AR6"
+authors:
+  - family-names: Cheon
+    given-names: Minjong
+    affiliation: "Department of Computer Science, Korea National Open University, Seoul, South Korea"
+license: MIT

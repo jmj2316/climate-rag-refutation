@@ -1,0 +1,10 @@
+model,arm,hedge,hedge_nosub
+Mistral,A,0.203,0.203
+Mistral,B,0.924,0.924
+Mistral,C,0.99,0.859
+Qwen,A,0.031,0.031
+Qwen,B,0.807,0.807
+Qwen,C,0.926,0.91
+Zephyr,A,0.162,0.162
+Zephyr,B,0.983,0.983
+Zephyr,C,0.984,0.635

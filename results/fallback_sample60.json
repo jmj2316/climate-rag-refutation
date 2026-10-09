@@ -1,0 +1,482 @@
+[
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1776",
+  "claim": "If anyone claims to be part of the 97 percent, it means they disagree with the contrarian argument that humans are having a minimal impact on global warming.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The 97% consensus figure refers to the proportion of climate scientists who agree that human activity is the primary cause of global warming, not a disagreement with the contrarian argument that humans have a minimal impact. The misconception arises from misunderstanding the nature of the consensus and the role of dissenting opinions in scientific discourse."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1933",
+  "claim": "Newt Gingrich \"teamed with Nancy Pelosi and Al Gore on global warming.\"",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nThe claim does not provide specific details about the nature and extent of the collaboration between Newt Gingrich, Nancy Pelosi, and Al Gore on global warming. While it is possible that they may have worked together on some aspect of climate change policy, the claim does not provide sufficient context or evidence to confirm this collaboration."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_198",
+  "claim": "For decades horticulturalists have pumped carbon dioxide into glasshouses to increase yields.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nExplanation: Horticulturalists have indeed been using carbon dioxide enrichment in greenhouses for several decades to enhance plant growth and increase yields. This practice is based on the fact that plants use carbon dioxide (CO2) as a primary source of carbon for photosynthesis. By increasing the CO2 concentration in the greenhouse, photosynthesis can be accelerated, leading to faster growth and higher yields. This is a common practice in controlled environments like greenhouses, and it is supported by numerous scientific studies."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1266",
+  "claim": "This means that the world is now 1C warmer than it was in pre-industrial times",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: While it is true that the global average temperature has risen since the pre-industrial era, the current increase is not exactly 1°C. As of 2021, the global average temperature increase is estimated to be around 1.2°C above pre-industrial levels according to the Intergovernmental Panel on Climate Change (IPCC). Therefore, the claim that the world is now 1°C warmer than it was in pre-industrial times is not accurate."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2387",
+  "claim": "The Greenland ice sheet is at least 400,000 years old and warming was not global when Europeans settled in Greeland 1,000 years ago",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The Greenland ice sheet is indeed older than 400,000 years, but the claim that warming was not global when Europeans settled in Greenland 1,000 years ago is incorrect. The Medieval Warm Period, a period of warming in Europe and Greenland, occurred around the time of Viking settlement (800-1066 AD). This period was part of a larger global climate pattern, not a local phenomenon isolated to Greenland."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2267",
+  "claim": "Focusing on a few suggestive emails, taken out of context, merely serves to distract from the wealth of empirical evidence for man-made global warming.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nExplanation: The claim supports the idea that focusing on a few emails, potentially taken out of context, can be used to distract from the overwhelming body of empirical evidence for human-induced climate change. While the claim does not deny the existence of this evidence, it suggests that such evidence is more significant than a few emails, which can be manipulated or misrepresented. The scientific consensus is that multiple lines of evidence, including but not limited to temperature records, ice core samples, and atmospheric measurements, support the conclusion of human-induced global warming."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1861",
+  "claim": "California legislators have made it illegal for anyone to deny climate change, under threat of jail time.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: There is no law in California or any other U.S. state that makes it illegal to deny climate change, and there is no provision for jail time as a penalty for such denial. The First Amendment of the U.S. Constitution protects the right to freedom of speech, which includes the right to express beliefs about climate change, whether they are supported by scientific evidence or not."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1458",
+  "claim": "Glaciers are retreating almost everywhere around the world — including in the Alps, Himalayas, Andes, Rockies, Alaska and Africa.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nExplanation: Glaciers are indeed retreating in many parts of the world due to global warming. This phenomenon has been observed in various mountain ranges such as the Alps, Himalayas, Andes, Rockies, Alaska, and Africa. The retreat is primarily caused by rising temperatures, which lead to increased melting of glaciers. This is a well-established finding in the field of climate science."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2230",
+  "claim": "[Ice] is expanding in much of Antarctica, contrary to the widespread public belief that global warming is melting the continental ice cap.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: While it is true that there are areas of Antarctica where ice shelves are growing due to cold temperatures and increased snowfall, the overall trend in Antarctica is one of ice loss. The vast majority of Antarctica's ice loss comes from the melting of ice sheets, which is primarily driven by global warming. The misconception arises from focusing on isolated instances of ice growth while ignoring the larger context of ice loss."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1662",
+  "claim": "Other parts of the earth got colder when Greenland got warmer.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The Earth's climate system is complex and interconnected. However, the warming of Greenland primarily leads to a redistribution of heat and ice melt, rather than causing other parts of the Earth to get colder. This misconception arises from a lack of understanding about how the Earth's climate works. The warming of Greenland contributes to rising sea levels and changes in global weather patterns, but it does not cause other regions to cool down."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2721",
+  "claim": "“Our analyses do not indicate  acceleration in sea level in U.S. tide gauge records during the 20th  century,” the study’s authors concluded.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The claim is inaccurate. While it is true that some studies may not show a significant acceleration in sea level rise in specific regions like the U.S. during the 20th century, the overall trend of global sea level rise has been accelerating since the mid-20th century due to global warming and melting of ice sheets and glaciers. This is supported by numerous studies and observations from multiple tide gauges around the world, not just in the U.S."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1078",
+  "claim": "“[Sea ice] also helps regulate the planet’s temperature by influencing the circulation of the atmosphere and ocean.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nExplanation: Sea ice plays a crucial role in the Earth's climate system. It influences the planet's temperature by reflecting a significant portion of solar radiation back into space, which helps cool the Earth's surface. Additionally, sea ice affects the ocean's heat distribution and the circulation of the atmosphere, as it can slow down the transfer of heat from the ocean to the atmosphere during winter and speed it up during summer. This impact on the atmosphere and ocean circulation can indirectly influence global temperature patterns."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_2347",
+  "claim": "In truth, the overwhelming majority of climate-research funding comes from the federal government and left-wing foundations.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nThe claim does not provide specific data or sources to support the assertion that the \"overwhelming majority\" of climate research funding comes from the federal government and left-wing foundations. While it's true that some funding for climate research comes from these sources, it's important to note that funding also comes from various private sector companies, international organizations, and other foundations with diverse political affiliations. A more accurate statement would be that climate research funding comes from a variety of sources, including the federal government, private sector, and foundations, with the specific distribution varying depending on the study and the funding agency."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_688",
+  "claim": "“The arc of global warming will be variously steep and less steep,’ said Richard Seager, a climate scientist at the Lamont-Doherty Earth Observatory of Columbia University.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nExplanation: The statement accurately reflects the scientific understanding that the rate of global warming can vary over time due to factors such as changes in greenhouse gas emissions, solar radiation, and natural climate variability. This is a well-established concept in climate science."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "a",
+  "claim_id": "cf_1369",
+  "claim": "“With a record El Niño, we should have experienced record high temperatures.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nWhile it's true that El Niño events can contribute to warmer global temperatures, the relationship is not straightforward. El Niño is a complex phenomenon that involves a variety of climate factors. A record El Niño event does not necessarily guarantee record high temperatures, as other factors such as greenhouse gas concentrations, solar radiation, volcanic activity, and atmospheric circulation patterns also play significant roles in global temperature variations. Therefore, more context is needed to accurately assess this claim."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_646",
+  "claim": "If Houlton’s finding about these vast, previously unknown nitrogen stores holds true, then it would have an enormous impact on global warming predictions.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about the impact of previously unknown nitrogen stores on global warming predictions. The excerpts discuss various impacts of climate change on food safety, water security, and cryosphere changes, but they do not mention nitrogen stores or their potential impact on global warming predictions."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2945",
+  "claim": "But that conclusion holds true only if there are no other sources of c12 increases which are not human caused.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about other sources of c12 increases that are not human-caused and their impact on global warming. The excerpts focus on CO2 emissions and their global warming effect, as well as anthropogenic CO2 removal, but do not discuss other isotopes such as c12. Therefore, it is not possible to determine whether the claim is supported or refuted based on the provided information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_503",
+  "claim": "“During the sunless winter, a heatwave raised concerns that the polar vortex may be eroding.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about a heatwave during the sunless winter raising concerns that the polar vortex may be eroding. The excerpts discuss changes in the polar vortex, such as weakening and shifting position, but they do not mention any heatwaves or their potential impact on the polar vortex during the sunless winter."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2478",
+  "claim": "(Kerr 2007) points out that the sunlight-reflecting haze that cools much of the planet seems to have thinned over the past decade or so.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about the thinning of sunlight-reflecting haze over the past decade or so. The excerpts discuss the energy flows in the climate system, the imbalance caused by human activities, and the changes in ice sheets and sea ice, but they do not mention the thinning of sunlight-reflecting haze specifically. Therefore, it is not possible to determine whether the claim is supported or refuted based on the provided information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1013",
+  "claim": "Global sea level rise surged between November 2014 and February 2016, with the El Niño event helping the oceans rise by 15mm.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about a surge in global sea level rise between November 2014 and February 2016, specifically the 15mm rise attributed to the El Niño event. While the excerpts discuss the impact of the 2015-2016 El Niño event on various regions, they do not provide specific data or evidence about the sea level rise during that period."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2011",
+  "claim": "U.S. Pays $1 Billion into Green Climate Fund, Top Polluters Pay Nothing",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not contain information about financial contributions to the Green Climate Fund or the emissions of specific countries, including the U.S. and other \"top polluters.\" Therefore, it is not possible to determine whether the claim that the U.S. pays $1 Billion into the Green Climate Fund while top polluters pay nothing is supported or refuted based on the provided information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2780",
+  "claim": "The United States has been restricting soot emissions  in Draconian fashion since the Clean Air Act of 1963.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The provided IPCC AR6 excerpts do not mention any regulations or restrictions on soot emissions in the United States, specifically since the Clean Air Act of 1963. Instead, they focus on the emissions and impacts of aviation, short-lived climate forcers, and sulphate aerosols, without any direct reference to soot emissions or regulations in the United States [1, 2, 3]. Therefore, the claim that the United States has been restricting soot emissions in a Draconian fashion since the Clean Air Act of 1963 is not supported by the provided IPCC AR6 excerpts."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2337",
+  "claim": "This provides a direct, empirical causal link between CO2 and global warming.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts discuss various aspects of global warming, CO2 emissions, and their effects on the climate system. However, they do not directly provide empirical evidence of a causal link between CO2 and global warming. The excerpts describe the relationship between CO2 emissions and global warming, but they do not establish a direct causal link. The excerpts also discuss the attribution of climate changes to various factors, including CO2, but they do not provide a direct causal link between CO2 and global warming. Therefore, the provided excerpts do not refute or support the claim of a direct, empirical causal link between CO2 and global warming."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_678",
+  "claim": "In the process, the cows will emit much greenhouse gas, and they will consume far more calories in beans than they will yield in meat, meaning far more clearcutting of forests to farm cattle feed than would be necessary if the beans above were simply eaten by people.”",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about the greenhouse gas emissions and calorie consumption of cows eating beans versus the production of plant-based meat alternatives. The excerpts discuss the GHG emissions of various plant-based meat analogues, cellular agriculture, and other food sources, but they do not compare these emissions to the emissions from cows eating beans or the production of beef. Therefore, it is not possible to determine whether the claim is supported or refuted based on the provided information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1294",
+  "claim": "“Because CO₂ acts as a fertilizer, as much as half of all vegetated land is persistently greener today.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The provided IPCC AR6 excerpts do not support the claim that \"Because CO₂ acts as a fertilizer, as much as half of all vegetated land is persistently greener today.\" [1] states that CO2 fertilization has been the main driver of the observed greening trend, but there is only low confidence in this assessment because of ongoing debate about the relative roles of CO2 fertilization, high latitude warming, and land management. Furthermore, [3] mentions that models underestimate the Northern Hemisphere carbon sink, which could suggest less greening than observed. However, the excerpts do not provide evidence that as much as half of all vegetated land is persistently greener today due to CO2 fertilization."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_534",
+  "claim": "Domino-effect of climate events could move Earth into a ‘hothouse’ state",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts discuss the concept of tipping points, abrupt changes, and compound events in the context of climate change. However, they do not directly address the claim of a \"domino-effect of climate events could move Earth into a ‘hothouse’ state.\" The excerpts mention the possibility of severe and unprecedented climate events, but they do not provide evidence or discussion about a chain reaction or domino effect leading to a permanent hot state for the Earth. Therefore, there is not enough information to support or refute this claim based on the provided excerpts."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2835",
+  "claim": "Arctic summer sea ice has shrunk by an area equal to Western Australia, and might be all gone in a decade.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about the Arctic summer sea ice shrinking by an area equal to Western Australia and potentially being all gone in a decade. While the excerpts provide evidence of Arctic sea ice loss and thinning, they do not provide specific quantitative data that would support or refute the claim about the area of Arctic summer sea ice shrinking to the size of Western Australia or potentially disappearing within a decade."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_435",
+  "claim": "NOAA’s analysis found last month was the 3rd-warmest April on record globally.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly address the claim about the 3rd-warmest April on record globally. While they provide information about global temperature trends over longer periods, they do not specifically mention April temperatures or rankings for individual months. Therefore, it is not possible to confirm or refute the claim based on the provided excerpts."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_2726",
+  "claim": "Humans are emitting 26 gigatonnes of CO2 into the atmosphere.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not directly provide information about the total annual CO2 emissions by humans. While they discuss the remaining carbon budget and historical emissions, they do not specify the current annual emissions. Therefore, it is not possible to determine whether the claim about 26 gigatonnes of CO2 emissions is supported or refuted based on the provided information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "b",
+  "claim_id": "cf_1394",
+  "claim": "U.S. Forest Service data show pine beetle infestations have recently declined dramatically throughout the western United States.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation: The provided IPCC AR6 excerpts show that climate change has contributed to increased tree mortality in North America, particularly in western regions, due to increased infestations of bark beetles and other tree-feeding insects ([1]). This is due to higher winter temperatures and longer growing seasons caused by climate change, which have allowed these insects to move further north and to higher elevations, reproduce more often, and kill drought-stressed trees ([1]). The excerpts do not provide evidence of a dramatic decline in pine beetle infestations throughout the western United States."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2328",
+  "claim": "What you were not told was that the data that triggered this record is only available back to the late 1970s.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation:\n\n1. The provided excerpts show that the evidence for climate change is based on a broad range of indicators, some of which date back to the 16th and 17th centuries [1]. This contradicts the claim that the data triggering record-breaking temperature events is primarily available from the late 1970s.\n\n2. The claim states that global temperature records maintained by organizations like NASA, NOAA, and the UK Met Office start around the late 1970s. However, the excerpts indicate that while there is a focus on data from the late 1970s and onwards, there is also data available before this period, albeit with less coverage and potentially lower quality [3, 4, 5].\n\n3. The claim suggests that the availability of climate data prior to the late 1970s is limited and of questionable quality. The excerpts, however, show that while data before the 1970s may be less extensive and of lower quality, there is still data available, and efforts are being made to improve and expand it [3, 4, 5]."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2766",
+  "claim": "The most interesting thing here is that the albedo forcings, in watts/sq meter seem to be fairly large.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The claim does not provide specific numerical values for the magnitude of albedo forcings in the current climate. While the provided excerpts discuss the definition of albedo forcings [1], the role of albedo forcings in climate models [2], and historical trends or changes in albedo forcings over time [4], they do not provide the numerical values that the claim is asking for. The claim could be supported or refuted with specific numerical values from the IPCC AR6 report, but the provided excerpts do not contain such information."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_551",
+  "claim": "Gone are the days when scientists drew a bright line dividing weather and climate.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"\"Scientific understanding of the relationship between weather and climate has evolved in recent years\"\"\n  [1] supports this claim by explaining that scientists use Earth system models to identify the chain of events underlying the transitions between past climatic states, guided by data about these past states. This process helps refine our understanding of Earth’s climate system and how it may evolve in coming decades to centuries.\n\nSub-claim: \"\"There is ongoing research on the role of short-term weather patterns in long-term climate trends\"\"\n  [3] supports this claim by stating that natural variations in both weather and longer time scale phenomena can temporarily mask or enhance any anthropogenic trends, and that many studies have examined the role of internal variability through the use of ‘large ensembles’.\n\nSub-claim: \"\"The distinction between weather and climate is becoming less clear due to the influence of climate change on weather events\"\"\n  [5] and [6] do not explicitly address this claim, but [5] defines climate change as a change in the state of the climate that persists for an extended period, typically decades or longer, and [6] explains that scientists can now quantify the contribution of human influences to the magnitude and probability of many extreme events, which could imply a blurring of the distinction between weather and climate. However, the excerpts do not provide a clear-cut answer to the claim.\n\nIn summary, the provided excerpts support the claim that the scientific understanding of the relationship between weather and climate has evolved in recent years and that there is ongoing research on the role of short-term weather patterns in long-term climate trends. The claim that the distinction between weather and climate is becoming less clear due to the influence of climate change on weather events is not explicitly supported or refuted by the provided excerpts."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1758",
+  "claim": "Temperature errors in the Great Lakes region are not used in any global temperature records.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nSub-claim: \"Are temperature data from the Great Lakes region included in global temperature datasets?\"\n  [1] The Great Lakes region is included in global temperature datasets such as GHCNMv4, HadEX2, HadGHCND, GHCNDEX, Berkeley Earth, and CRU TS.\n\nSub-claim: \"Are there specific quality control processes for temperature data from the Great Lakes region in global temperature records?\"\n  [3] Global temperature datasets apply various adjustments for non-climatic biases such as urban heat-island effects, and address unevenness in geospatial and temporal sampling with various techniques. However, the text does not specify if these processes are specific to the Great Lakes region.\n\nSub-claim: \"Are there any adjustments or exclusions made specifically for temperature data from the Great Lakes region in global temperature records?\"\n  [4] The text does not provide information about any adjustments or exclusions made specifically for temperature data from the Great Lakes region in global temperature records.\n\nSub-claim: \"Temperature errors in the Great Lakes region are not used in any global temperature records.\"\n  The provided excerpts show that temperature data from the Great Lakes region are included in global temperature datasets, and while there are quality control processes and adjustments applied to these datasets, there is no evidence to suggest that errors specific to the Great Lakes region are not accounted for. Therefore, the claim that temperature errors in the Great Lakes region are not used in any global temperature records is refuted."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2153",
+  "claim": "Water levels correlate with sunspots",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation:\n\nSub-claim: \"Water levels correlate with sunspots\"\nThe provided excerpts do not contain any direct evidence or correlation between water levels and sunspots. Instead, they focus on various aspects of climate change, such as temperature changes, sea level rise, ocean salinity, and solar radiation projections, but do not mention sunspots or any correlation between them and water levels.\n\nSub-claim: \"\"Historical records of sunspot activity and sea level changes from 1700 to present\"\"\nThe excerpts do not provide any historical records of sunspot activity and sea level changes from 1700 to the present.\n\nSub-claim: \"\"Correlation between solar irradiance and sea level changes in the last century\"\"\nThe excerpts do not contain any information about a correlation between solar irradiance and sea level changes in the last century.\n\nSub-claim: \"\"Studies on the impact of solar cycle length on global sea level trends\"\"\nThe excerpts do not contain any studies on the impact of solar cycle length on global sea level trends."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1604",
+  "claim": "CO2 increase is natural, not human-caused.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nSub-claim: \"Historical CO2 levels before the Industrial Revolution\"\n[1] The text states that CO2 levels before 1850 were not pristine and that there were both anthropogenic and natural changes to the climate. It also mentions that the widespread use of coal-powered machinery started the Industrial Revolution in Britain in the late 18th century, but the global effects were small for several decades.\n\nSub-claim: \"Rate of CO2 increase in the geological past compared to the Industrial Era\"\n[3] The text states that current levels of atmospheric CO2 have not been experienced for at least 2 million years and that the increase in CO2 since the 19th century is much faster than the maximum centennial growth rate averages of those gases during the last 800 kyr.\n\nSub-claim: \"Natural sources of CO2 emissions compared to anthropogenic sources in the Industrial Era\"\n[5] The text states that there is high confidence that the rates of atmospheric CO2 and CH4 change during the last century were at least 10 and 5 times faster, respectively, than the maximum centennial growth rate averages of those gases during the last 800 kyr. It also mentions that there is medium confidence in the key drivers of the CO2 increase between the early Holocene and the beginning of the industrial era, yet there is low confidence in the relative contributions of these drivers due to insufficient quantitative constraints on particular processes."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_3034",
+  "claim": "Since rock weathering reduces atmospheric CO2, this again reinforces the scientific fact that CO2 is a strong driver of climate.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation:\n\nSub-claim: \"Role of rock weathering in CO2 reduction: Mechanism and rate of CO2 absorption by rock weathering\"\n  [1] and [2] provide information about enhanced weathering, a method of CO2 capture and storage that involves the mining of rocks containing minerals that absorb CO2 from the atmosphere over geological timescales. However, they do not directly address the natural rate of CO2 absorption by rock weathering, which was the sub-claim in question.\n\nSub-claim: \"Impact of CO2 levels on global climate: Correlation between atmospheric CO2 concentration and global temperature\"\n  [3] and [4] discuss the correlation between atmospheric CO2 concentration and global temperature, but they do not specifically address the strength of CO2 as a driver of climate.\n\nSub-claim: \"Strength of CO2 as a greenhouse gas: Quantification of CO2's contribution to the greenhouse effect and its impact on Earth's climate system\"\n  [5] and [6] provide information about the global warming potential (GWP) of CO2, which is an index measuring the radiative forcing following an emission of a unit mass of a given substance, accumulated over a chosen time horizon, relative to that of carbon dioxide. However, they do not directly address the strength of CO2 as a greenhouse gas or its impact on Earth's climate system.\n\nTherefore, the provided excerpts do not provide enough information to support or refute the claim that CO2 is a strong driver of climate."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1103",
+  "claim": "[ocean acidification was ] First referenced in a peer-reviewed study in Nature in 2003",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nSub-claim: \"\"Publication of the peer-reviewed study 'Impacts of anthropogenic carbon dioxide emissions on the marine biosphere' in the journal Nature in 2003\"\"\n  [1]-[6] do not mention the title, journal, or year of publication for the study in question.\n\nSub-claim: \"\"First mention of ocean acidification in the abstract of the aforementioned study\"\"\n  [3] does not mention the term \"ocean acidification\" in the abstract.\n\nSub-claim: \"\"Authorship of the study includes R. M. Sabine, J. D. Feely, and S. A. Gruber\" (These authors are the ones who first coined the term \"ocean acidification\" in the study)\"\n  [1]-[6] do not mention the authors R. M. Sabine, J. D. Feely, and S. A. Gruber, nor do they provide any evidence that they coined the term \"ocean acidification\"."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2721",
+  "claim": "“Our analyses do not indicate  acceleration in sea level in U.S. tide gauge records during the 20th  century,” the study’s authors concluded.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nSub-claim: \"Sea level analysis in U.S. tide gauge records during the 20th century\"\n  [1] and [4] provide evidence that sea level analysis was conducted in U.S. tide gauge records during the 20th century.\n\nSub-claim: \"Acceleration in sea level rise was not observed in U.S. tide gauge records during the 20th century\"\n  [6] states that four of the five available tide gauge reconstructions that extend back to at least 1902 showed a robust acceleration (high confidence) of GMSL rise over the 20th century.\n\nSub-claim: \"The study's authors concluded that there was no acceleration in sea level in U.S. tide gauge records during the 20th century\"\n  [6] contradicts this claim, stating that four of the five available tide gauge reconstructions showed a robust acceleration (high confidence) of GMSL rise over the 20th century."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2359",
+  "claim": "Therefore human emissions upset the natural balance, rising CO2 to levels not seen in at least 800,000 years.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"Historical CO2 levels in the atmosphere over the past 800,000 years\"\n  [1], [2]: The provided excerpts show that CO2 levels have changed substantially over millions of years, and current levels have not been experienced for at least 2 million years (high medium confidence likely/high confidence very likely extremely likely virtually certain). Comparisons of air contained in ice samples from the past 800,000 years show that current CO2, CH4, and N2O levels are unprecedented (very high confidence).\n\nSub-claim: \"Current CO2 levels in the atmosphere\"\n  [4]: The provided excerpt states that in 2019, atmospheric CO2 concentration reached 410 ppm, CH4 reached 1866 ppb, and nitrous oxide (N2O) reached 332 ppb.\n\nSub-claim: \"Human activities as a primary source of CO2 emissions\"\n  [5], [6]: The provided excerpts indicate that the largest source of CO2 is combustion of fossil fuels (approximately 64% of emissions), making it the principal anthropogenic greenhouse gas (GHG) that affects the Earth’s radiative balance. Other significant sources of CO2 are land-related activities, industrial processes, and municipal waste and wastewater."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2202",
+  "claim": "More specifically, around 95% of active climate researchers actively publishing climate papers endorse the consensus position.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation:\n1. The provided excerpts do not contain data on the number of active climate researchers publishing climate papers in a specific year or range of years.\n2. The excerpts do not provide data on the percentage of the identified active climate researchers who endorse the consensus position on anthropogenic climate change.\n3. The excerpts do not specify the source(s) of the data used to identify active climate researchers and their endorsement of the consensus position.\n\nTherefore, it is not possible to determine the validity of the claim based on the provided IPCC AR6 excerpts."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2565",
+  "claim": "Human kind has little or nothing to do with the recent temperature changes.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes\n\nExplanation:\n1. The provided excerpts [1] and [2] indicate that the IPCC reports multiple lines of evidence showing unprecedented large-scale climatic changes in the context of all human history, which are a result of human activities, particularly fossil fuel combustion and land-related activities.\n2. The excerpts [3] and [4] show that human activities are the largest source of CO2 and methane, the two biggest contributors to global warming.\n3. The excerpts [5] and [6] suggest that while natural variability, such as solar radiation and volcanic activity, can cause climate variations, they have had very little influence on temperature changes observed over the past century. The influence of natural climate variability typically decreases as the time period gets shorter, and the effects of volcanic eruptions fade within a decade. On the other hand, human-caused greenhouse gas emissions and aerosols have a lasting impact on the climate system.\n\nTherefore, the claim that \"Human kind has little or nothing to do with the recent temperature changes\" is refuted by the evidence provided by the IPCC reports."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_1383",
+  "claim": "a new study by a leading climate economist, Richard Tol of the University of Sussex, concludes that warming may well bring gains, because carbon dioxide causes crops and wild ecosystems to grow greener and more drought-resistant.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation: The provided IPCC AR6 excerpts do not contain specific information about a new study by Richard Tol of the University of Sussex on the effects of carbon dioxide on crops and wild ecosystems. The excerpts discuss various aspects of climate change, its impacts, and the role of carbon dioxide in plant growth, but they do not provide evidence of a new study by Tol that concludes carbon dioxide causes crops to grow greener or wild ecosystems to become more drought-resistant."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_349",
+  "claim": "Nor is there evidence of an increase in floods globally.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nExplanation:\n\n1. Sub-claim: \"Number of reported flood events globally from 1980 to 2020\"\n   [1] The provided excerpt discusses the trend of spring flood occurrence earlier per decade, not the number of flood events.\n\n2. Sub-claim: \"Trend analysis of global flood events frequency from 1980 to 2020\"\n   [1] The provided excerpt discusses the trend of spring flood occurrence earlier per decade, not the frequency of global flood events.\n\n3. Sub-claim: \"Comparison of global flood event severity (e.g., economic damage, loss of life) from 1980 to 2020\"\n   [4] The provided excerpt discusses the estimation of economic losses caused by floods, but not a comparison of severity over time.\n   [5] The provided excerpt discusses damages caused by various climate-related extremes, but not specifically floods.\n\nTherefore, the claim \"Nor is there evidence of an increase in floods globally\" cannot be supported or refuted based on the provided IPCC AR6 excerpts. The excerpts do not provide information about the number or frequency of global flood events, nor do they compare the severity of flood events over time."
+ },
+ {
+  "model": "Mistral-7B-Instruct-v0_3",
+  "arm": "c",
+  "claim_id": "cf_2702",
+  "claim": "While it's true that any single country's CO2 emissions reductions will make little difference, only if every nation agrees to limit CO2 emissions can we achieve significant cuts on a global scale.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports (for the first sub-claim), Refutes (for the second sub-claim), Not enough information (for the third sub-claim)\n\nExplanation:\n\n1. The provided excerpt [1] shows that different regions have varying contributions to global CO2 emissions, with developed countries and the Asia and Pacific region being the largest emitters of consumption-based CO2 emissions. This supports the claim that any single country's CO2 emissions make little difference in the global context.\n\n2. The excerpt [2] presents scenarios where CO2 concentrations peak and decline during the 21st century, but the land and ocean begin to take up less carbon in response, turning into a weak net source by 2100 in the very low GHG emissions scenario (medium confidence). This suggests that even with international agreements to limit emissions, significant cuts on a global scale may not lead to a substantial decrease in CO2 concentrations in the atmosphere.\n\n3. The excerpt [3] provides net zero CO2 and GHG emissions pathways for different time periods, but it does not explicitly show historical trends of global CO2 emissions reduction when multiple nations agree to limit emissions. Therefore, there is not enough information to support or refute this sub-claim."
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_86",
+  "claim": "There isn’t yet any empirical evidence for their claim that greenhouse gases even cause temperatures to increase.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"\"In the scientific report 'Attribution of the Causes of Global Warming' by the Intergovernmental Panel on Climate Change (IPCC), it is stated that 'most of the observed increase in global average temperatures since the mid-20th century is very likely due to the observed increase in anthropogenic greenhouse gas concentrations' (IPCC, 2013, p. 12).\"\"\n\nExcerpt: [1] (wg1_full, p.301-302): the observed increase could be largely due to this natural variability; alternatively, this variability and other human factors could have offset a still larger human- induced greenhouse warming. The unequivocal detection of the enhanced greenhouse effect from observations is not likely for a decade or more. The balance of evidence suggests a discernible human influence on global climate. Simulations with coupled atmosphere–ocean models have provided important information about decade to century time scale natural internal climate variability. There is new and stronger evidence that most of the warming observed over the last 50 years is attributable to human activities. There is a longer and more scrutinized temperature record and new model estimates of variability. Reconstructions of climate data for the past 1,000 years indicate this warming was unusual and is unlikely to be entirely natural in origin. Most of the observed increase in global average temperatures since the mid-20th century is very likely due to the observed increase in anthropogenic greenhouse gas concentrations. Discernible human influence now extends to other aspects of climate, including ocean warming, continental-average temperatures, temperature extremes and wind patterns. Human influence on the climate system is clear. It is extremely likely that more than half of the observed increase in global average surface"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_446",
+  "claim": "It’s not carbon dioxide, it’s not methane… Scientists estimate that somewhere between 75% and 90% of Earth greenhouse effect is caused by water vapor in clouds.”",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"According to a study published in the journal Water Resources Research in 2018, the average greenhouse effect contribution of water vapor in clouds is estimated to be 95% based on satellite observations and climate models.\"\n\nExcerpt: [1] (wg1_full, p.1039-1039): \"The interactions between clouds and the climate are complex and varied. Clouds at low altitudes tend to reflect incoming solar energy back to space, creating a cooling effect by preventing this energy from reaching and warming the Earth. On the other hand, higher clouds tend to trap (i.e., absorb and then emit at a lower temperature) some of the energy leaving the Earth, leading to a warming effect. On average, clouds reflect back more incoming energy than the amount of outgoing energy they trap, resulting in an overall net cooling effect on the present climate. Human activities since the pre-industrial era have altered this climate effect of clouds in two different ways: by changing the abundance of the aerosol particles in the atmosphere and by warming the Earth’s surface, primarily as a result of increases in greenhouse gas emissions. The concentration of aerosols in the atmosphere has markedly increased since the pre-industrial era, and this has had two important effects on clouds. First, clouds now reflect back more incoming energy because cloud droplets have become more numerous and smaller. Second, smaller droplets may delay rain formation, thereby making the clouds last longer, although this effect remains uncertain. Hence, aerosols released by human activities have had a cooling effect, counteracting a considerable portion of the warming caused by increases in greenhouse gases over the last century (see FAQ 3.1).\"\n\nExcerpt: [2] (IPCC AR6 WG1 Summary for"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1871",
+  "claim": "Donald Trump \"thinks that climate change is a hoax, invented by the Chinese.\"",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes the claim.\n\nSub-claim: \"In a tweet on November 6, 2012, Donald Trump wrote, 'The concept of global warming was created by and for the Chinese in order to make U.S. Manufacturing non-competitive.'\"\n\n[1] Refuted by IPCC AR6 WG3 Technical Summary (Mitigation), p.1767-1768: \"Industry critically depends on regulations.\"\n\nSub-claim: \"In an interview with Fox News on March 13, 2019, Donald Trump stated, 'I don't know that it’s man-made. I mean, you speak to scientists, and some scientists believe this, some scientists don't believe this.'\"\n\n[3] Refuted by IPCC AR6 WG2 Technical Summary, p.1489-1490: \"36.8 Amur 14.2 35.6 Eastern Himalayas 12.2 29 Black sea 26.2 56 Chapter 10 Asia conservation; to facilitate species movements across climatic gradients, an increase in landscape connectivity can be elaborated by setting up habitat corridors between nature reserves and along elevational and other climatic gradients (Brito-Morales et al., 2018; D’Aloia et al., 2019; United Nations Climate Change Secretariat, 2019). Assisted migration of species should be considered for isolated habitats as mountain summits or where movements are constrained by poor dispersal ability. Introducing seeds of the species to new regions will help to protect them from the extinction risk caused by climate change (Mazangi et al., 201"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2986",
+  "claim": "As a result, the planet as a whole is becoming less reflective and absorbing more sunlight, which is accelerating global warming.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"The concentration of solar-absorbing greenhouse gases, such as carbon dioxide and methane, in the Earth's atmosphere has increased by approximately 40% since the pre-industrial era, as reported by the National Oceanic and Atmospheric Administration (NOAA) in their annual greenhouse gas index.\"\n\n[1] (wg1_full, p.693-693): \"Contemporary Trends of Greenhouse Gases It is unequivocal that the increase of CO 2, CH 4, and N 2O in the atmosphere over the industrial era is the result of human activities ( very high confidence ). This assessment is based on multiple lines of evidence including atmospheric gradients, isotopes, and inventory data. During the last measured decade, global average annual anthropogenic emissions of CO 2, CH 4, and N 2O, reached the highest levels in human history at 10.9 ± 0.9 petagrams of carbon per year (PgC yr –1, 2010–2019), 335–383 teragrams of methane per year (TgCH4 yr –1, 2008–2017), and 4.2–11.4 teragrams of nitrogen per year (TgN yr –1, 2007–2016), respectively ( high confidence ). . The CO 2 emitted from human activities during the decade of 2010–2019 (decadal average 10.9 ± 0.9 PgC yr –1) was distributed between three Earth system components: 46% accumulated in the atmosphere (5"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_10",
+  "claim": "Human additions of CO2 are in the margin of error of current measurements and the gradual increase in CO2 is mainly from oceans degassing as the planet slowly emerges from the last ice age.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"Human additions of CO2 are in the margin of error of current measurements and the gradual increase in CO2 is mainly from oceans degassing as the planet slowly emerges from the last ice age.\"\n\n[1] (wg1_full, p.320-321): \"0.96 ± 0.05 ppb yr –1 from 2012 to 2019 (Figure 2.5c and Section 5.2.3.5).\"\n\nThis sub-claim does not provide enough information to refute or support the claim. The provided excerpt only shows the current rate of increase in CO2 concentrations, but it does not provide information on whether human additions are within the margin of error of current measurements or whether the gradual increase in CO2 is mainly from oceans degassing as the planet slowly emerges from the last ice age.\n\n[2] (IPCC AR6 Synthesis Report (Longer Report), p.8-9): \"The observed warming to 2010–2019 – 1.06 [0.88 to 1.21]°C – is assessed from radiative forcing studies to be due to the cumulative effect of greenhouse gas emissions since the pre-industrial period (66). Contributions from emissions to the 2010–2019 warming relative to 1850–1900 assessed from radiative forcing studies are: CO2, 0.8 [0.5 to 1.2]°C; methane, 0.5 [0.3 to 0.8]°C; nitrous oxide, 0.1 [0."
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2896",
+  "claim": "But gravity measurements of ice-mass loss are  complicated by glacial isostatic adjustments—compensation for the rise or fall of the underlying crustal material.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"But gravity measurements of ice-mass loss are complicated by glacial isostatic adjustments—compensation for the rise or fall of the underlying crustal material.\"\n\n[1] (wg1_full, p.1333-1333): sheets, which grow much more slowly than they retreat. If the current melting of these ice sheets continues for long enough, it becomes effectively irreversible on human time scales, as does the sea level rise caused by that melting. Humans are changing the climate and there are mechanisms that amplify the warming in the polar regions (Arctic and Antarctic). The Arctic is already warming faster than anywhere else (see FAQ 4.3). This is significant because these colder high latitudes are home to our two remaining ice sheets: Antarctica and Greenland. Ice sheets are huge reservoirs of frozen freshwater, built up by tens of thousands of years of snowfall. If they were to completely melt, the water released would raise global sea level by about 65 m. Understanding how these ice sheets are affected by warming of nearby ocean and atmosphere is therefore critically important. The Greenland and Antarctic ice sheets are already slowly responding to recent changes in climate, but it takes a long time for these huge masses of ice to adjust to changes in global temperature. That means that the full effects of a warming climate may take hundreds or thousands of years to play out. An important question is whether these changes can eventually be reversed, once levels of greenhouse gases in the atmosphere are stabilized or reduced by humans and natural processes. Records from the past can help us answer this question. For at least the last 800,000 years, the Earth has followed cycles of gradual\n\n[2] (wg"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2308",
+  "claim": "\"The 30 major droughts of the 20th century were likely natural in all respects; and, hence, they are \"indicative of what could also happen in the future,\" as Narisma",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"\"The drought in the US Great Plains from 1931 to 1939 had a return period of approximately 500 years based on tree ring data from the region.\" (source: Dai, A., & Zhang, X., 2002. Changes in precipitation extremes in a warming world. Nature, 419(6908), 257-260.)\"\n\nExcerpt [1]: \"The drought in the US Great Plains from 1931 to 1939 had a return period of approximately 500 years based on tree ring data from the region.\" (Dai and Zhang, 2002)\n\nThis sub-claim is based on a specific study by Dai and Zhang (2002). Without further evidence, it is unclear whether this finding is representative of all droughts in the US Great Plains during the 20th century, as claimed by Narisma.\n\nSub-claim: \"\"The drought in the Horn of Africa from 1974 to 1976 was exacerbated by a strong El Niño event, which reduced rainfall in the region by up to 50%.\" (source: IPCC, 2014. Climate Change 2014: Impacts, Adaptation, and Vulnerability. Part A: Global and Sectoral Aspects. Contribution of Working Group\"\n\nExcerpt [3]: \"In Africa, there is some evidence of a contribution of human emissions to single meteorological drought events, such as the 2015–2017 southern African drought (Funk et al., 201"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1580",
+  "claim": "Plant stomata show higher and more variable CO2 levels.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"In a study published in Nature Plants in 2019, researchers found that plant stomata in the Amazon rainforest showed a 10% increase in CO2 levels during the daytime compared to 20 years ago, and this increase was more pronounced during dry seasons.\" (Search query: \"Nature Plants 2019 Amazon rainforest stomata CO2 increase\")\"\n\n[1] (wg1_full, p.1166-1167): collapse does occur, it is very likely that there would be large regional impacts on the water cycle. 8.6.2 Abrupt Water Cycle Responses to Changes in the Land Surface Changes in the land surface, including vegetation cover and dust emissions, can trigger abrupt changes in the water cycle. Plants regulate the exchange of water and energy between the land surface and the atmosphere (Section 8.2.3.3), such that sudden shifts in plant functions, types, or biomes can trigger feedbacks that have the potential to cause abrupt changes in the regional water cycle. Dust emissions, from either climatic or land use changes, affect the radiation budget and can regionally exacerbate dry extremes. Below, we assess the likelihood of abrupt changes in the water cycle for the well-studied regions of the Amazon and the Sahel, and the potential for dust emissions to amplify drought and aridity. 8.6.2.1 Amazon Deforestation and Drying The Amazon forest plays an active role in driving atmospheric moisture transport and generating precipitation in the South American region (SRCCL; Drumond et al., 2014; Poveda et al., 2014; Yin et al., 2014; Staal et al.,"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1154",
+  "claim": "[CO2] is also a greenhouse gas which helps maintain earth at a habitable temperature.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"[CO2] is also a greenhouse gas which helps maintain earth at a habitable temperature.\"\n\nSub-claim: \"The concentration of CO2 in the Earth's atmosphere is currently approximately 410 parts per million (ppm) as measured by the Mauna Loa Observatory in Hawaii. (Source: NOAA Earth System Research Laboratory)\"\n  [1] (wg1_full, p.706-707): al., 2013; Pongratz et al., 2018). Sensitivity studies show that practices such as wood and crop harvesting increase global net LULUCF emissions (Arneth et al., 2017) and explain about half of the cumulative loss in biomass (Erb et al., 2018).\n\nSub-claim: \"The concentration of CO2 in the Earth's atmosphere has increased by approximately 40% since the pre-industrial era (approximately 1750). (Source: IPCC Special Report on Global Warming of 1.5°C)\"\n  [3] (wg1_full, p.209-210): generally expressed relative to 1850–1900 as an approximate pre-industrial state (SR1.5, IPCC, 2018). This is a pragmatic choice based upon data availability considerations, though both anthropogenic and natural changes to the climate occurred before 1850. The remaining carbon budgets, the chance of crossing global temperature thresholds, and projections of extremes and sea level rise at a particular level of global warming can all be sensitive to the chosen definition of the approximate pre-industrial baseline (Millar et"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1551",
+  "claim": "We're coming out of the Little Ice Age.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"We're coming out of the Little Ice Age.\"\n\n[1] (wg1_full, p.300-301): (0−700 m) warmed from 1971 to 2010, and it likely warmed between the 1870s and 1971.\n\nThis sub-claim refers to a specific time period, the Little Ice Age, which is not explicitly addressed in the provided excerpts. The excerpt [1] only mentions warming trends since the 1870s and up to 2010, but it does not provide information about whether the Little Ice Age was a period of cooling or not. Therefore, we cannot make a verdict on this sub-claim based on the provided evidence.\n\nSub-claim: \"The average global temperature from 1981 to 2010 was 0.61°C higher than the average from 1951 to 1980, according to data from the National Oceanic and Atmospheric Administration (NOAA).\"\n\n[1] (wg1_full, p.300-301): (0−700 m) warmed from 1971 to 2010, and it likely warmed between the 1870s and 1971.\n\nThis sub-claim is supported by the provided evidence. The excerpt [1] mentions a warming trend since the 1970s, which is consistent with the average global temperature increase from 1981 to 2010 as reported by NOAA.\n\nSub-claim: \"The 20th century experienced a cooling trend known"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_320",
+  "claim": "Globally averaged thermometers show two periods of warming since 1900: a half-degree from natural causes in the first half of the 20th century, before there was an increase in industrial carbon dioxide that was enough to produce it, and another half-degree in the last quarter of the century.",
+  "verdict": "refutes",
+  "raw": "Verdict: Refutes the claim.\n\nSub-claim: \"Between 1901 and 1950, the global average temperature increased by 0.3°C, as reported in the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report (AR5) Chapter 2.\"\n\n[1] (wg1_full, p.299-300): \"Global mean surface temperature8 in the first two decades of the 21st century (2001–2020) was 0.99 [0.84 to 1.10] °C higher than 1850–1900. Global surface temperature was 1.09 [0.95 to 1.20] °C higher in 2011–2020 than 1850–1900, with larger increases over land (1.59 [1.34 to 1.83] °C) than over the ocean (0.88 [0.68 to 1.01] °C).\"\n\nThe provided evidence from the IPCC AR5 Chapter 2 shows that the global average temperature increased by 0.3°C between 1901 and 1950, but it also shows that the global average temperature increased by 0.99°C and 1.09°C between 1850-1900 and 2011-2020, respectively. This indicates that the claim is not accurate as it only mentions the temperature increase between 1901 and 1950, while the provided evidence shows that the temperature increase was much higher in the more recent periods.\n\nSub-claim: \"During"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_897",
+  "claim": "The report […] found that the United States was one of the most pollution-free nations in the world.”",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"The report specifically referred to in this claim is the '2018 Global Energy Review' published by the International Energy Agency (IEA).\"\n\nExcerpt: [1] (wg3_full, p.408-409): Outlook 2019. International Energy Agency (IEA), Paris, France, 810 pp. https://www.iea.org/reports/world-energy-outlook-2019. IEA, 2020a: World Energy Outlook 2020. International Energy Agency (IEA), Paris, France 464 pp. https://www.iea.org/reports/world-energy-outlook-2020. IEA, 2020b: Global Energy Review 2020. International Energy Agency (IEA), Paris, France, 55pp. https://www.iea.org/reports/global-energy-review-2020. IEA, 2021a: Net Zero by 2050. A Roadmap for the Global Energy Sector. International Energy Agency (IEA), Paris, France, 224 pp. https://www.iea.org/reports/net-zero-by-2050. IEA, 2021b: Conditions and requirements for the technical feasibility of a power system with a high share of renewables in France towards 2050. International Energy Agency (IEA), Paris, France, 186 pp. https://www.iea.org/reports/conditions-and-requirements-for-the-technical-feasibility-of-a-power-system-with"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_2641",
+  "claim": "In a paper published online this week in the Journal of Geophysical Research-Atmosphere, economics professor Ross McKitrick says the resulting discrepancies may be leading to an overstatement of the role of greenhouse gases in the atmosphere.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"In a paper published online this week in the Journal of Geophysical Research-Atmosphere, economics professor Ross McKitrick says the resulting discrepancies may be leading to an overstatement of the role of greenhouse gases in the atmosphere.\"\n\n[1] (wg1_full, p.456-457): −0.54°C to −0.22°C per century attributed to aerosols. But they also found that detection of the greenhouse gas or the aerosol signal often fails, because of uncertainties in modelled patterns of change and internal variability. That point is illustrated by Figure 3.7, which shows two- and three-way fingerprinting regression coefficients for 13 CMIP6 models and the corresponding attributable warming ranges, derived using HadCRUT4 (Gillett et al., 2021). Regression coefficients with an uncertainty range that includes zero mean that detection has failed. Models with regression coefficients significantly less than one significantly overpredict the temperature response to the corresponding forcing. Conversely, models with regression coefficients significantly greater than one underpredict the response to these forcings. While estimates of warming attributable to anthropogenic influence derived using individual models are generally consistent, estimates of warming (a) (b) (d)(c) Figure 3.7 | Regression coefficients and corresponding attributable warming estimates for individual CMIP6 models. Upper panels show regression coefficients based on a two-way regression (left) and three-way regression (right), of observed five-year mean, globally averaged, masked and blended surface temperature (HadCRUT4) onto individual model response patterns, and a multi-model mean, labelled ‘Multi’. Anthropogen"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1077",
+  "claim": "Antarctic ice fluctuates wildly year to year, and the link to man-made global warming there is not clear, NASA ice expert Walt Meier said.",
+  "verdict": "nei",
+  "raw": "Verdict: Not enough information\n\nSub-claim: \"Antarctic ice fluctuates wildly year to year, and the link to man-made global warming there is not clear, NASA ice expert Walt Meier said.\"\n\n[1] (wg1_full, p.361-361): the 1960s (Meier et al., 2013; Gallaher et al., 2014) indicate higher overall SIE compared to 1979–2013 (Hobbs et al., 2016a, b), but with large uncertainties and poorly quantified biases (NA SEM, 2017). The continuous satellite passive-microwave record shows that there was a modest increase in overall Antarctic SIA of 2.5% ± 0.2% per decade (1 standard error over 1979–2015; Comiso et al., 2017). For overall ice coverage and for this period, positive long-term trends were most pronounced during austral autumn advance (Maksym, 2019), being moderate in summer and winter, and lowest in spring (Holland, 2014; Turner et al., 2015; Hobbs et al., 2016a, b; Comiso et al., 2017). Since 2014, overall Antarctic SIE (and SIA) has exhibited major fluctuations from record-high to record-low satellite era extents (Massonnet et al., 2015; Reid and Massom, 2015; Reid et al., 2015; Comiso et al., 2017; Parkinson, 20"
+ },
+ {
+  "model": "zephyr-7b-beta",
+  "arm": "c",
+  "claim_id": "cf_1136",
+  "claim": "When water temperatures become too high, coral becomes stressed and expels the algae, which leave the coral a bleached white color.",
+  "verdict": "supports",
+  "raw": "Verdict: Supports\n\nSub-claim: \"Coral species XYZ have a symbiotic relationship with zooxanthellae, a type of algae that live within their tissues and provide them with nutrients through photosynthesis.\"\n\n[1] (wg2_full, p.427-428): \"are based on a model of coral-symbiont evolutionary dynamics from Logan et al. (2021), which simulates two coral types and symbiont populations for 1925 reef cells worldwide, from 1950 to 2100 drawn from simulations with National Oceanic and Atmospheric Administration–Geophysical Fluid Dynamics Laboratory Earth System Model (ESM2M) under four RCPs. Top panels show the simulated fraction of cells with healthy reefs, when both coral types are not in a state of severe bleaching or mortality, (i) without adaptive responses and (ii) with adaptive responses (symbiont evolution). Colours indicate maximum monthly sea surface temperature increase across all reef cells, versus a 1861–2010 baseline.\"\n\nThis excerpt provides evidence for the symbiotic relationship between coral species XYZ and zooxanthellae. The model used by Logan et al. (2021) simulates the interaction between two coral types and symbiont populations, which suggests that zooxanthellae are an integral part of the coral ecosystem. The fact that the model takes into account the impact of sea surface temperature increase on this relationship further supports the importance of zooxanthellae for coral species XYZ.\n\nSub-claim: \"When water temperatures become too high, coral becomes stressed and expels the al"
+ }
+]

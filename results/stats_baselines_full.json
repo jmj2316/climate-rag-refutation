@@ -1,0 +1,11 @@
+{
+  "majority_class": "supports",
+  "class_freq": {
+    "supports": 0.4261,
+    "refutes": 0.1648,
+    "nei": 0.4091
+  },
+  "majority_acc": 0.4260586319218241,
+  "majority_macro_f1": 0.19917770671539514,
+  "uniform_chance_acc": 0.3333333333333333
+}

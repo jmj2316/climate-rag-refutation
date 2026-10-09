@@ -1,0 +1,15 @@
+# Analysis (CPU): scripts 08, 11-16, 19-21
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn
+matplotlib
+# Data and knowledge base: scripts 00-04
+datasets==5.0.1
+pypdf==6.19.0
+rank-bm25==0.2.2
+sentence-transformers==5.6.0
+faiss-gpu==1.7.2   # conda-forge; faiss-cpu also works for retrieval
+# Generation and scoring (GPU): scripts 03, 05-07, 09, 10, 17, 18
+vllm==0.6.6.post1
+transformers==4.57.6

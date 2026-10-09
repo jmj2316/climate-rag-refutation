@@ -1,0 +1,1473 @@
+{
+  "accuracy": 0.6375,
+  "n": 240,
+  "parsed": 240,
+  "per_class": {
+    "2_not_us": {
+      "tp": 17,
+      "n": 40
+    },
+    "4_solutions_wont_work": {
+      "tp": 32,
+      "n": 40
+    },
+    "3_not_bad": {
+      "tp": 25,
+      "n": 40
+    },
+    "5_science_unreliable": {
+      "tp": 17,
+      "n": 40
+    },
+    "1_not_happening": {
+      "tp": 26,
+      "n": 40
+    },
+    "0_not_denial": {
+      "tp": 36,
+      "n": 40
+    }
+  },
+  "records": [
+    {
+      "claim": "New research shows that the sun's influence on global warming shouldn't be underestimated. It might be as powerful as CO2 emissions. #GlobalWarming #Science",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: The claim attributes global warming primarily to the sun's influence rather than human activities."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "US thermometer data shows a cooling trend for the last years",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Claims a cooling trend against the observed warming trend."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Apparently, there's no solid proof yet that the greenhouse effect is actually causing global warming. 🤔",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "Did you know that Earth's climate has been super-variable for ages? The geological record has evidence of everything from super-cold ice ages to super-hot periods.",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Describes natural climate variability without denying current climate change."
+    },
+    {
+      "claim": "Less sea ice in the Arctic means warmer ocean water, which is a big deal. #ClimateAction",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges a consequence of climate change and calls for action."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "Interesting! Cosmic ray counts have been going up for the past 50 years. #ClimateScience #CosmicRays",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to cosmic rays rather than human activities."
+    },
+    {
+      "claim": "US thermometer data shows a cooling trend for the last years",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Claims a cooling trend against the observed warming trend."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "Burning plastic 'waste' is a dirty,high-carbon, resources waste",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement criticizes a practice without denying climate change or its causes."
+    },
+    {
+      "claim": "Sydney Harbour's sea level hasn't changed much in the last 140 years. 🤔  This might seem surprising given all the talk about climate change, but it's important to look at local data. #ClimateChange #Sydney #Australia",
+      "true": "1_not_happening",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents local data without denying climate change."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "New study suggests that the Earth’s climate is not that sensitive to greenhouse gases  #ClimateChange #ClimateAction",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of greenhouse gases on climate sensitivity is minimal."
+    },
+    {
+      "claim": "Did you know the Medieval Warm Period (950-1250 AD) was warmer than today? #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a historical temperature comparison without denying current climate change."
+    },
+    {
+      "claim": "The amount of land we use for meat production has decreased by a massive amount, roughly the size of Alaska. This is a significant change, but we still have a long way to go. #SustainableFood #MeatlessMonday #EnvironmentalImpact",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses changes in land use for meat production without denying climate change."
+    },
+    {
+      "claim": "New study suggests sea level rise might not be directly linked to ocean temps or CO2 levels. 🤯  #ClimateScience #SeaLevelRise",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a new study suggesting an alternative link to sea level rise, which is a topic within climate science and does not deny climate change."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "did you know that livestock contribute to the emission of greenhouse gases? #ClimateChange #GoVegan",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a contributor to greenhouse gas emissions without denying climate change."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "To help the environment, stop the greenwashing!",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Advocating against greenwashing does not deny climate change or its impacts."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "Apparently, there's no solid proof yet that the greenhouse effect is actually causing global warming. 🤔",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "Whoa, new study says electric vehicles are actually worse for the climate than diesel cars! 🤯",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Claims electric vehicles are worse for the climate than diesel cars, suggesting solutions like electric vehicles won't work."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "Scientists say there IS a link between climate change and extreme weather events. #ClimateAction #ClimateChange",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms the link between climate change and extreme weather events, consistent with mainstream climate science."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "According to satellite data, there's been no warming in the last 17 years.. #climatescience #globalwarming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that there has been no warming for the past 17 years, contradicting the overall trend of global warming."
+    },
+    {
+      "claim": "It's been said that carbon dioxide doesn't have much of an effect on the climate.",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not a cause of climate change."
+    },
+    {
+      "claim": "According to satellite data, there's been no warming in the last 17 years.. #climatescience #globalwarming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that there has been no warming for the past 17 years, contradicting the overall trend of global warming."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "It's been debated whether increasing greenhouse gases are the main driver of global warming. Some argue there isn't enough scientific evidence to firmly establish this link.",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses doubt about the scientific consensus on the role of greenhouse gases in global warming."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "Interesting fact: Melting ice doesn't actually heat up the Arctic.",
+      "true": "1_not_happening",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests that melting ice has no significant heating effect on the Arctic, downplaying its impact."
+    },
+    {
+      "claim": "Recent research shows that the increase in solar activity during the last century could be a major factor in climate change #ClimateAction #ScienceNews",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to solar activity suggests humans are not the primary cause."
+    },
+    {
+      "claim": "It's been said that carbon dioxide doesn't have much of an effect on the climate.",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not a cause of climate change."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "New research suggests the impact of global warming on sea level rise might be overestimated.",
+      "true": "5_science_unreliable",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests the impacts of global warming are exaggerated."
+    },
+    {
+      "claim": "Veganism is not concerned with climate",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not directly related to climate change causation or its impacts."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "Interesting fact: Melting ice doesn't actually heat up the Arctic.",
+      "true": "1_not_happening",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests that melting ice has no significant heating effect on the Arctic, downplaying its impact."
+    },
+    {
+      "claim": "Tree equity is a vital part of the climate fight",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses an aspect of climate solutions without denying climate change."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "Veganism is not concerned with climate",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not directly related to climate change causation or its impacts."
+    },
+    {
+      "claim": "It's been debated whether increasing greenhouse gases are the main driver of global warming. Some argue there isn't enough scientific evidence to firmly establish this link.",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses doubt about the scientific consensus on the role of greenhouse gases in global warming."
+    },
+    {
+      "claim": "It's been said that carbon dioxide doesn't have much of an effect on the climate.",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not a cause of climate change."
+    },
+    {
+      "claim": "Whoa, new study says electric vehicles are actually worse for the climate than diesel cars! 🤯",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Claims electric vehicles are worse for the climate than diesel cars, suggesting solutions like electric vehicles won't work."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "did you know that CO₂ acts like plant food? #ClimateChange #GreenEarth",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promoting the beneficial effect of CO₂ for plants does not deny climate change."
+    },
+    {
+      "claim": "Veganism is not concerned with climate",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not directly related to climate change causation or its impacts."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "Global warming is a much more pressing concern than an ice age, which is centuries away.",
+      "true": "0_not_denial",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim minimizes the urgency of global warming by comparing it to a distant ice age."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "Less sea ice in the Arctic means warmer ocean water, which is a big deal. #ClimateAction",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges a consequence of climate change and calls for action."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "New research suggests the impact of global warming on sea level rise might be overestimated.",
+      "true": "5_science_unreliable",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests the impacts of global warming are exaggerated."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Diamond batteries powered by radioactive isotopes could provide energy for thousands of years without needing a recharge. Talk about a game-changer! 💎 #CleanEnergy #FutureOfEnergy #Innovation",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discussion about a potential energy source without denying climate change."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "Climate success is possible – but only by cutting emissions in all sectors right now",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Advocates for immediate emission cuts align with mainstream climate science on the need for action."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "Did you know that the air we breathe currently has more than 385 parts per million of carbon dioxide?",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement provides a factual piece of information about current CO2 levels in the atmosphere."
+    },
+    {
+      "claim": "It's official: the earth is hotter than it's been in the last years.  #ClimateAction",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms that the earth is hotter, consistent with climate change observations."
+    },
+    {
+      "claim": "Scientists are warning that changes in atmospheric circulation could cause more extreme heat events.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is not a denialist claim and aligns with mainstream climate science."
+    },
+    {
+      "claim": "New study suggests sea level rise might not be directly linked to ocean temps or CO2 levels. 🤯  #ClimateScience #SeaLevelRise",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a new study suggesting an alternative link to sea level rise, which is a topic within climate science and does not deny climate change or its causes."
+    },
+    {
+      "claim": "Interesting! Cosmic ray counts have been going up for the past 50 years. #ClimateScience #CosmicRays",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to cosmic rays rather than human activities."
+    },
+    {
+      "claim": "According to satellite data, there's been no warming in the last 17 years.. #climatescience #globalwarming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that there has been no warming for the past 17 years, contradicting the overall trend of global warming."
+    },
+    {
+      "claim": "It's no longer just 'global warming' - they're calling it 'climate change' now. Seems like a more accurate term for all the weird weather we're seeing.",
+      "true": "1_not_happening",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not denying climate change but rather explaining a terminology shift."
+    },
+    {
+      "claim": "Did you know sunspot activity is at a record low? This could mean we're heading towards a 'mini Ice Age'! #climatechange #miniiceage",
+      "true": "1_not_happening",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing current climate conditions to natural factors (sunspot activity) rather than human influence."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "research shows that water vapor, not CO2, is the main driver of the greenhouse effect #ClimateScience #WaterVapor",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: The claim attributes the main driver of the greenhouse effect to water vapor rather than CO2, suggesting that human activities are not the primary cause of climate change."
+    },
+    {
+      "claim": "Did you know that air pollution can damage your lungs, heart, and increase your risk of cancer? Protect yourself and your loved ones. #AirQuality #Health",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promotes health awareness without addressing climate change."
+    },
+    {
+      "claim": "We're used to hearing how hot it is now, but apparently it's not all that unusual. Past records show Earth's temps were warmer than today for most of human history! 🧐 #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim discusses historical temperature records without denying current climate change."
+    },
+    {
+      "claim": "New study suggests that the Earth’s climate is not that sensitive to greenhouse gases  #ClimateChange #ClimateAction",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of greenhouse gases on climate sensitivity is minimal."
+    },
+    {
+      "claim": "Climate change isn't just some distant problem, it could cost the global economy up to 10% of GDP according to the UN Climate Panel. That's serious.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges the economic impact of climate change without denying its occurrence."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "Apparently, ice caps are at record levels now, despite predictions of melting.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that ice caps are not melting as predicted, contradicting the observed trend of ice cap melting."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "we should be more cautious about the claims around ocean acidification. more research is needed before jumping to conclusions",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about climate science claims and calls for more research."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "US thermometer data shows a cooling trend for the last years",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Claims a cooling trend against the observed warming trend."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "Interesting! Cosmic ray counts have been going up for the past 50 years. #ClimateScience #CosmicRays",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to cosmic rays rather than human activities."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "It's no longer just 'global warming' - they're calling it 'climate change' now. Seems like a more accurate term for all the weird weather we're seeing.",
+      "true": "1_not_happening",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not denying climate change but rather explaining a terminology shift."
+    },
+    {
+      "claim": "Oceans play a HUGE role in regulating climate change. It's not just about the air, it's about what's happening in the water too.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges the role of oceans in climate regulation without denying climate change."
+    },
+    {
+      "claim": "Climate models based on the water vapor feedback haven't been accurate in predicting future climate change.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests climate science is unreliable due to model inaccuracies."
+    },
+    {
+      "claim": "Apparently, ice caps are at record levels now, despite predictions of melting.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that ice caps are not melting as predicted, contradicting the observed trend of ice cap melting."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "It's been debated whether increasing greenhouse gases are the main driver of global warming. Some argue there isn't enough scientific evidence to firmly establish this link.",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses doubt about the scientific consensus on the role of greenhouse gases in global warming."
+    },
+    {
+      "claim": "it's important to remember that the overall trend of sea level rise is still upward #ClimateAction #Sustainability",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms the occurrence of sea level rise and calls for action, consistent with mainstream climate science."
+    },
+    {
+      "claim": "Did you know sunspot activity is at a record low? This could mean we're heading towards a 'mini Ice Age'! #climatechange #miniiceage",
+      "true": "1_not_happening",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing current climate conditions to natural factors (sunspot activity) rather than human influence."
+    },
+    {
+      "claim": "It's been said that carbon dioxide doesn't have much of an effect on the climate.",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not a cause of climate change."
+    },
+    {
+      "claim": "Apparently, ice caps are at record levels now, despite predictions of melting.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that ice caps are not melting as predicted, contradicting the observed trend of ice cap melting."
+    },
+    {
+      "claim": "It's been debated whether increasing greenhouse gases are the main driver of global warming. Some argue there isn't enough scientific evidence to firmly establish this link.",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses doubt about the scientific consensus on the role of greenhouse gases in global warming."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "Carbon emissions from tropical deforestation are far higher than previously thought",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is not denying the occurrence or impact of climate change, but rather suggesting new data on a contributing factor."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Before the mid-20th century, CO2 emissions were already on the rise due to increased coal usage. #ClimateHistory",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is a factual claim about historical CO2 emissions and does not deny climate change or its causes."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Sea level rise is a real thing, folks. It's a direct result of melting ice and it's been happening for a long time. We need to take action now to protect our planet. 🌎 #ClimateChange #Sustainability",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms sea level rise and calls for action, consistent with mainstream climate science."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "They found no link between CO2 levels and global temperatures over the past decade. 🤔",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not the cause of temperature changes."
+    },
+    {
+      "claim": "Did you know sunspot activity is at a record low? This could mean we're heading towards a 'mini Ice Age'! #climatechange #miniiceage",
+      "true": "1_not_happening",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing current climate conditions to natural factors (sunspot activity) rather than human influence."
+    },
+    {
+      "claim": "did you know that CO₂ acts like plant food? #ClimateChange #GreenEarth",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promoting the beneficial effect of CO₂ for plants does not deny climate change."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "did you know that CO₂ acts like plant food? #ClimateChange #GreenEarth",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promoting the beneficial effect of CO₂ for plants does not deny climate change."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "Did you know that air pollution can damage your lungs, heart, and increase your risk of cancer? Protect yourself and your loved ones. #AirQuality #Health",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promotes health awareness without addressing climate change."
+    },
+    {
+      "claim": "The Earth's fever is getting worse.  2010 was the hottest year ever recorded, and global temperatures are still climbing. We need to take action now.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the occurrence and urgency of climate change, aligning with mainstream climate science."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "Did you know that the oceans are incredibly good at resisting acidity? Their buffering capacity is massive! #Oceans #MarineLife",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses the buffering capacity of oceans without denying climate change."
+    },
+    {
+      "claim": "Shipping is one of the dirtiest industries in terms of emissions of NO2.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about shipping emissions and does not deny climate change or its causes."
+    },
+    {
+      "claim": "It's no longer just 'global warming' - they're calling it 'climate change' now. Seems like a more accurate term for all the weird weather we're seeing.",
+      "true": "1_not_happening",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not denying climate change but rather explaining a terminology shift."
+    },
+    {
+      "claim": "Millions invested in climate solutions based on manipulated data. #ClimateData #TruthMatters",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Claims data manipulation and questions the reliability of climate science."
+    },
+    {
+      "claim": "Did you know the sun is going through a 'lockdown' period, which could cause freezing temps, earthquakes, and famine? Scientists are studying this, but it's definitely concerning. #sun #climatechange",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: The claim attributes current climate changes to solar activity rather than human causes."
+    },
+    {
+      "claim": "New study suggests that the Earth’s climate is not that sensitive to greenhouse gases  #ClimateChange #ClimateAction",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of greenhouse gases on climate sensitivity is minimal."
+    },
+    {
+      "claim": "Apparently, there's no solid proof yet that the greenhouse effect is actually causing global warming. 🤔",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science."
+    },
+    {
+      "claim": "Did you know the Medieval Warm Period (950-1250 AD) was warmer than today? #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a historical temperature comparison without denying current climate change."
+    },
+    {
+      "claim": "NOAA has adjusted past temperatures to look colder and recent ones warmer.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests NOAA is manipulating data, implying unreliability of climate science."
+    },
+    {
+      "claim": "Did you know some experts see rising CO2 levels as a positive for humans?  #ClimateDebate #Science",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Some experts view rising CO2 levels as beneficial for humans."
+    },
+    {
+      "claim": "New study suggests that the Earth’s climate is not that sensitive to greenhouse gases  #ClimateChange #ClimateAction",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of greenhouse gases on climate sensitivity is minimal."
+    },
+    {
+      "claim": "Climate models based on the water vapor feedback haven't been accurate in predicting future climate change.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests climate science is unreliable due to model inaccuracies."
+    },
+    {
+      "claim": "heat waves have been on a downward trend both in the US and globally #ClimateChangeFacts",
+      "true": "1_not_happening",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Claim suggests that heat waves are decreasing, implying they are not harmful."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "Greenhouse gases from our actions are a major factor in warming our planet.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Consistent with mainstream climate science."
+    },
+    {
+      "claim": "Climate models based on the water vapor feedback haven't been accurate in predicting future climate change.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests climate science is unreliable due to model inaccuracies."
+    },
+    {
+      "claim": "Interesting! Climate scientists thought we'd see a bigger temperature jump by 2020, but the actual rise was half of what they predicted. 🤔 More research is needed to understand why.",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim acknowledges climate change and expresses uncertainty about the rate of temperature increase, suggesting more research is needed."
+    },
+    {
+      "claim": "Whoa, new study says electric vehicles are actually worse for the climate than diesel cars! 🤯",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Claims electric vehicles are worse for the climate than diesel cars, suggesting solutions like electric vehicles won't work."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "Climate change isn't just about getting back to normal after a cold spell. It's a major shift in the Earth's climate system, and we're seeing the effects all around us.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms the occurrence and significance of climate change."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "Turns out climate models were predicting a LOT more warming than what we've actually experienced. #ClimateAction",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim questions the accuracy of climate models but does not deny that climate change is occurring or that humans are the primary cause."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "It's crazy to think that just like 7% or so of CO2 in the atmosphere is from humans, but it's had a HUGE impact on our climate. We need to take action now!",
+      "true": "0_not_denial",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of human-caused CO2 is minimal and implies that climate change is not a serious issue."
+    },
+    {
+      "claim": "Interesting! Cosmic ray counts have been going up for the past 50 years. #ClimateScience #CosmicRays",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to cosmic rays rather than human activities."
+    },
+    {
+      "claim": "Turns out, California's extreme weather isn't a surprise. Scientists have been warning about these long dry periods mixed with intense rain for decades. #climatepredictions #drought #floods",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges climate science predictions about extreme weather patterns."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "Veganism is not concerned with climate",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is not directly related to climate change causation or its impacts."
+    },
+    {
+      "claim": "We're used to hearing how hot it is now, but apparently it's not all that unusual. Past records show Earth's temps were warmer than today for most of human history! 🧐 #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim discusses historical temperature records without denying current climate change."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "New study suggests that the Earth’s climate is not that sensitive to greenhouse gases  #ClimateChange #ClimateAction",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that the impact of greenhouse gases on climate sensitivity is minimal."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Some folks are misusing the IPCC's climate change equation. This can lead to inaccurate conclusions about global warming. We need to rely on reliable scientific data!",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science data."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "NOAA has adjusted past temperatures to look colder and recent ones warmer.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests NOAA is manipulating data, implying unreliability of climate science."
+    },
+    {
+      "claim": "burning bioenergy accelerates climate change",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that a solution (burning bioenergy) accelerates climate change rather than mitigates it."
+    },
+    {
+      "claim": "research shows that higher CO2 levels have little impact over ocean critters #ClimateChange #OceanLife",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that higher CO2 levels have minimal impact on ocean creatures, which aligns with the \"not bad\" category."
+    },
+    {
+      "claim": "The speed of climate change is still a bit of a mystery. According to a recent study, we might be decades ahead or behind on our timeline. This just shows how important it is to stay informed and take action. #ClimateCrisis",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Acknowledges the uncertainty in climate change timelines and emphasizes the importance of action."
+    },
+    {
+      "claim": "The planet has an incredible ability to reuse toxic materials that humans produce.",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is not related to climate change or its impacts."
+    },
+    {
+      "claim": "Did you know that the oceans are incredibly good at resisting acidity? Their buffering capacity is massive! #Oceans #MarineLife",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses the buffering capacity of oceans without denying climate change."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "The Puerto Rico Pledge for Climate Change includes reducing their carbon footprint by half.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: It is a statement about an action to reduce carbon footprint, not a denial of climate change."
+    },
+    {
+      "claim": "Whoa, did you know that the climate agreement between the US and China doesn't actually require China to do anything for the next 16 years? That seems...strange.",
+      "true": "4_solutions_wont_work",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses a specific agreement without denying climate change."
+    },
+    {
+      "claim": "New research suggests the impact of global warming on sea level rise might be overestimated.",
+      "true": "5_science_unreliable",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests the impacts of global warming are exaggerated."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "did you know that CO₂ acts like plant food? #ClimateChange #GreenEarth",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promoting the beneficial effect of CO₂ for plants does not deny climate change."
+    },
+    {
+      "claim": "Climate models based on the water vapor feedback haven't been accurate in predicting future climate change.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests climate science is unreliable due to model inaccuracies."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Did you know the Medieval Warm Period (950-1250 AD) was warmer than today? #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a historical temperature comparison without denying current climate change."
+    },
+    {
+      "claim": "A new study claims hundreds of papers prove global warming is a hoax #ClimateChange #Science",
+      "true": "1_not_happening",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Claims papers prove global warming is a hoax, suggesting skepticism of climate science."
+    },
+    {
+      "claim": "Apparently, there's no solid proof yet that the greenhouse effect is actually causing global warming. 🤔",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science."
+    },
+    {
+      "claim": "Interesting fact: Melting ice doesn't actually heat up the Arctic.",
+      "true": "1_not_happening",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests that melting ice has no significant heating effect on the Arctic, downplaying its impact."
+    },
+    {
+      "claim": "The Great Barrier Reef, one of the world's most iconic natural wonders, is declining.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is a factual observation about the condition of the Great Barrier Reef and does not deny climate change or its impacts."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "Whoa, new study says electric vehicles are actually worse for the climate than diesel cars! 🤯",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Claims electric vehicles are worse for the climate than diesel cars, suggesting solutions like electric vehicles won't work."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "It's been said that carbon dioxide doesn't have much of an effect on the climate.",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not a cause of climate change."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "Good news, folks! Polar bear numbers are increasing! This is a positive sign for the species' survival.",
+      "true": "3_not_bad",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: The claim suggests that warming is not harmful to polar bears."
+    },
+    {
+      "claim": "Interesting fact: Melting ice doesn't actually heat up the Arctic.",
+      "true": "1_not_happening",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests that melting ice has no significant heating effect on the Arctic, downplaying its impact."
+    },
+    {
+      "claim": "New study suggests sea level rise might not be directly linked to ocean temps or CO2 levels. 🤯  #ClimateScience #SeaLevelRise",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a new study suggesting an alternative link to sea level rise, which is a topic within climate science and does not deny climate change or its causes."
+    },
+    {
+      "claim": "Interesting! Cosmic ray counts have been going up for the past 50 years. #ClimateScience #CosmicRays",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to cosmic rays rather than human activities."
+    },
+    {
+      "claim": "NOAA has adjusted past temperatures to look colder and recent ones warmer.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests NOAA is manipulating data, implying unreliability of climate science."
+    },
+    {
+      "claim": "The giant ice sheet covering Greenland is shrinking at an alarming rate. #climatechange",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The statement is consistent with mainstream climate science observations."
+    },
+    {
+      "claim": "The Paris Agreement aims to keep global warming below 2 degrees, but new research suggests that might not be enough to prevent major climate disasters. We need more ambitious action to protect our planet.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim acknowledges the reality of global warming and the need for further action to address it."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "Climate models based on the water vapor feedback haven't been accurate in predicting future climate change.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests climate science is unreliable due to model inaccuracies."
+    },
+    {
+      "claim": "Before the mid-20th century, CO2 emissions were already on the rise due to increased coal usage. #ClimateHistory",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: This statement is a factual claim about historical CO2 emissions and does not deny climate change or its causes."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "A study suggests that rising carbon dioxide levels have contributed to increased food production worldwide. #Science #Agriculture",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim supports the idea that CO2 levels can have positive effects on agriculture, which is consistent with some aspects of climate science."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "there's been no statistically significant warming over the last 15 years.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Suggests that global warming is not occurring over the specified period."
+    },
+    {
+      "claim": "Interesting fact: America's air quality is actually better than most other G7 countries, except Canada. 🤔 #G7 #ClimateAction",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discusses air quality without denying climate change."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "Apparently, ice caps are at record levels now, despite predictions of melting.",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: The claim suggests that ice caps are not melting as predicted, contradicting the observed trend of ice cap melting."
+    },
+    {
+      "claim": "They found no link between CO2 levels and global temperatures over the past decade. 🤔",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Suggests CO2 is not the cause of temperature changes."
+    },
+    {
+      "claim": "We're used to hearing how hot it is now, but apparently it's not all that unusual. Past records show Earth's temps were warmer than today for most of human history! 🧐 #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim discusses historical temperature records without denying current climate change."
+    },
+    {
+      "claim": "US thermometer data shows a cooling trend for the last years",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Claims a cooling trend against the observed warming trend."
+    },
+    {
+      "claim": "The science is clear: Global warming is leading to more intense heatwaves.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Consistent with mainstream climate science."
+    },
+    {
+      "claim": "there is no consistent trend in global warming",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Denies the occurrence of global warming."
+    },
+    {
+      "claim": "did you know that CO₂ acts like plant food? #ClimateChange #GreenEarth",
+      "true": "3_not_bad",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Promoting the beneficial effect of CO₂ for plants does not deny climate change."
+    },
+    {
+      "claim": "Recent research shows that the increase in solar activity during the last century could be a major factor in climate change #ClimateAction #ScienceNews",
+      "true": "2_not_us",
+      "pred": "2_not_us",
+      "raw": "Category: 2_not_us\nReason: Attributing climate change to solar activity suggests humans are not the primary cause."
+    },
+    {
+      "claim": "Apparently, there's no solid proof yet that the greenhouse effect is actually causing global warming. 🤔",
+      "true": "2_not_us",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Expresses skepticism about the reliability of climate science."
+    },
+    {
+      "claim": "Did you know the Medieval Warm Period (950-1250 AD) was warmer than today? #ClimateScience",
+      "true": "2_not_us",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim presents a historical temperature comparison without denying current climate change."
+    },
+    {
+      "claim": "You're talking about urbanism -- rehabbing abandoned buildings to revive urban neighborhoods -- which is great and dramatically reduces carbon emissions by concentrating dwellings in cities.",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Discussing urbanism and its benefits does not deny climate change or its causes."
+    },
+    {
+      "claim": "People make it seem like we can change our energy habits, which is quite difficult.",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that changing energy habits is difficult and implies solutions may not work."
+    },
+    {
+      "claim": "Heard that emissions regulations are gonna cost us all a ton of money, but apparently, most of us won't even see any benefits. 🤔",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: The claim expresses skepticism about the effectiveness and benefits of emissions regulations."
+    },
+    {
+      "claim": "US thermometer data shows a cooling trend for the last years",
+      "true": "1_not_happening",
+      "pred": "1_not_happening",
+      "raw": "Category: 1_not_happening\nReason: Claims a cooling trend against the observed warming trend."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    },
+    {
+      "claim": "A new study claims hundreds of papers prove global warming is a hoax #ClimateChange #Science",
+      "true": "1_not_happening",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Claims papers prove global warming is a hoax, suggesting skepticism of climate science."
+    },
+    {
+      "claim": "It's not just a city problem! The warming trend is the same in both rural and urban areas. #ClimateChangeIsReal #GlobalWarming",
+      "true": "0_not_denial",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: Affirms the reality of climate change and warming trends across areas."
+    },
+    {
+      "claim": "Ditching your current car will save a few tons *per year*.",
+      "true": "0_not_denial",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Suggests that individual actions like ditching a car are ineffective in addressing climate change."
+    },
+    {
+      "claim": "The IPCC, the leading international body for the assessment of climate change, said in 1990 that the Antarctic ice sheets were stable.  #ClimateScience #Antarctica",
+      "true": "5_science_unreliable",
+      "pred": "0_not_denial",
+      "raw": "Category: 0_not_denial\nReason: The claim is a factual statement about the IPCC's assessment from 1990, not a denialist claim."
+    },
+    {
+      "claim": "New research suggests the impact of global warming on sea level rise might be overestimated.",
+      "true": "5_science_unreliable",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests the impacts of global warming are exaggerated."
+    },
+    {
+      "claim": "NOAA has adjusted past temperatures to look colder and recent ones warmer.",
+      "true": "5_science_unreliable",
+      "pred": "5_science_unreliable",
+      "raw": "Category: 5_science_unreliable\nReason: Suggests NOAA is manipulating data, implying unreliability of climate science."
+    },
+    {
+      "claim": "Trees can beat the rising heat",
+      "true": "0_not_denial",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests that warming has minimal or beneficial impacts."
+    },
+    {
+      "claim": "New research suggests the impact of global warming on sea level rise might be overestimated.",
+      "true": "5_science_unreliable",
+      "pred": "3_not_bad",
+      "raw": "Category: 3_not_bad\nReason: Suggests the impacts of global warming are exaggerated."
+    },
+    {
+      "claim": "Nevada's rooftop solar plan is causing folks without solar panels to pay more for electricity. It's meant to help solar adoption, but I'm not sure it's the best approach. #energycosts #renewableenergy",
+      "true": "4_solutions_wont_work",
+      "pred": "4_solutions_wont_work",
+      "raw": "Category: 4_solutions_wont_work\nReason: Expresses skepticism about the effectiveness of a solar panel plan."
+    }
+  ]
+}
